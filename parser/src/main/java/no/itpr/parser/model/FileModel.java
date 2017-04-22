@@ -48,12 +48,12 @@ import com.github.javaparser.printer.PrettyPrinterConfiguration;
 import no.itpr.parser.model.FileProcess.ReadFile;
 
 /**
- * @author oluf
  *
  * Denne klassen benyttes til File og java 8 Stream operasjoner
  * Den benyttes også til å lage xmi/xml representasjoner av java klasser
  * Et eget rammeverk for java parser benyttes til dette:
  * http://www.javadoc.io/doc/com.github.javaparser/javaparser-core/3.1.2
+ * @author oluf
  */
 public class FileModel {
 	private Stream<String> lines;
